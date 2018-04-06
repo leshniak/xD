@@ -1,12 +1,26 @@
-# xD
+# xD.js
 
 Write a JavaScript program using just xD XD
 
 ## Installation
 
-`npm install leshniak/xD`
+`npm install leshniak/xD`  
+Works in node and browser environment.
 
-## Hello world in xD
+## Hello world
+
+Let's consider `console.log('Hello world')` as UTF-8 string. It becomes:
+
+```
+01100011011011110110111001110011
+01101111011011000110010100101110
+01101100011011110110011100101000
+00100111010010000110010101101100
+01101100011011110010000001110111
+01101111011100100110110001100100
+0010011100101001
+```
+in binary. Now replace `0 => xD` and `1 => XD`. Use comas, simicolons or new lines to separate xDs:
 
 ```
 xD, XD, XD, xD, xD, xD, XD, XD, xD, XD, XD, xD, XD, XD, XD, XD
@@ -24,12 +38,15 @@ xD, XD, XD, xD, XD, XD, xD, xD, xD, XD, XD, xD, xD, XD, xD, xD
 xD, xD, XD, xD, xD, XD, XD, XD, xD, xD, XD, xD, XD, xD, xD, XD
 ```
 
-prints `Hello world`
+this actually prints `Hello world`.
 
 ## Changes
 
 ### Version 1.0.0:
 * Initial release.
+
+## But why?
+For fun. And because I can.
 
 ## License
 ```
