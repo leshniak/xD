@@ -1,0 +1,11 @@
+{
+  "name": "xd",
+  "version": "1.0.0",
+  "description": "Create a program using xD",
+  "main": "xD.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maciej Leśniewski",
+  "license": "ISC"
+}
